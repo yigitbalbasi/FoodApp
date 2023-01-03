@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/urunFotosu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/purple_500"
+        android:src="@drawable/ic_launcher_background"></ImageView>
+
+    <LinearLayout
+        android:id="@+id/aciklamaLinear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/urunBaslik"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Ürün Başlık"
+            android:textSize="16dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/urunFiyat"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Ürün Fiyat"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/adetLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="vertical">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonAzalt"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0dp"
+                android:text="-"></Button>
+
+            <TextView
+                android:id="@+id/textViewAdetSayisi"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="8dp"
+                android:text="1"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <Button
+                android:id="@+id/buttonArttir"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:text="+"></Button>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/urunDetaySepeteEkle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="8dp"
+            android:text="Sepete Ekle"></Button>
+
+        >
+    </LinearLayout>
+
+</LinearLayout>

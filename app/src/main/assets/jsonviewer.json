@@ -1,0 +1,89 @@
+{
+  "yemekler": [
+    {
+      "yemek_id": "1",
+      "yemek_adi": "Ayran",
+      "yemek_resim_adi": "ayran.png",
+      "yemek_fiyat": "3"
+    },
+    {
+      "yemek_id": "2",
+      "yemek_adi": "Baklava",
+      "yemek_resim_adi": "baklava.png",
+      "yemek_fiyat": "25"
+    },
+    {
+      "yemek_id": "3",
+      "yemek_adi": "Fanta",
+      "yemek_resim_adi": "fanta.png",
+      "yemek_fiyat": "6"
+    },
+    {
+      "yemek_id": "4",
+      "yemek_adi": "Izgara Somon",
+      "yemek_resim_adi": "izgarasomon.png",
+      "yemek_fiyat": "55"
+    },
+    {
+      "yemek_id": "5",
+      "yemek_adi": "Izgara Tavuk",
+      "yemek_resim_adi": "izgaratavuk.png",
+      "yemek_fiyat": "27"
+    },
+    {
+      "yemek_id": "6",
+      "yemek_adi": "Kadayıf",
+      "yemek_resim_adi": "kadayif.png",
+      "yemek_fiyat": "22"
+    },
+    {
+      "yemek_id": "7",
+      "yemek_adi": "Kahve",
+      "yemek_resim_adi": "kahve.png",
+      "yemek_fiyat": "16"
+    },
+    {
+      "yemek_id": "8",
+      "yemek_adi": "Köfte",
+      "yemek_resim_adi": "kofte.png",
+      "yemek_fiyat": "25"
+    },
+    {
+      "yemek_id": "9",
+      "yemek_adi": "Lazanya",
+      "yemek_resim_adi": "lazanya.png",
+      "yemek_fiyat": "32"
+    },
+    {
+      "yemek_id": "10",
+      "yemek_adi": "Makarna",
+      "yemek_resim_adi": "makarna.png",
+      "yemek_fiyat": "28"
+    },
+    {
+      "yemek_id": "11",
+      "yemek_adi": "Pizza",
+      "yemek_resim_adi": "pizza.png",
+      "yemek_fiyat": "45"
+    },
+    {
+      "yemek_id": "12",
+      "yemek_adi": "Su",
+      "yemek_resim_adi": "su.png",
+      "yemek_fiyat": "2"
+    },
+    {
+      "yemek_id": "13",
+      "yemek_adi": "Sütlaç",
+      "yemek_resim_adi": "sutlac.png",
+      "yemek_fiyat": "10"
+    },
+    {
+      "yemek_id": "14",
+      "yemek_adi": "Tiramisu",
+      "yemek_resim_adi": "tiramisu.png",
+      "yemek_fiyat": "23"
+    }
+  ],
+  "success": 1
+}
